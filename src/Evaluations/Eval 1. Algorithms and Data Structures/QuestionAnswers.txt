@@ -1,0 +1,7 @@
+1. Theoretical Questions:
+  1.1 Can you explain the difference between a stack and a queue?
+    A stack is Last in first out, a queue is first in first out
+  1.2 What is a hash table and how does it work?
+    A hash table I think is like a dictionary where there are keys that correspond to values?
+  1.3 What is a binary search tree and why is it useful?
+    I don't know this

@@ -1,0 +1,12 @@
+1. Theoretical Questions:
+
+    1.1 Can you explain what Agile software development is?
+      Agile software development focuses on 2 week sprints where developers are assigned a certain amount of points for how much work they're commiting to be done. There are also meetings involved in the process where the backlog is groomed, swarm sessions, retrospectives etc.
+    1.2 What are the main differences between a monolithic architecture and a microservices architecture?
+      A monolith is when all the client, business logic, and persistance code is stored and deployed as one giant interconnected heap. Where as a microservices architecture is distributed based on domain (hopefully) or functionality
+    1.3 Can you briefly describe what Continuous Integration/Continuous Deployment (CI/CD) is?
+      Continuous Integration refers to the process in which changes are made to whatever system you're working with. For instance Git uses Pull Requests that merge code changes together into branches. Continuous Deployment refers to the methodology on how those changes reach their destination, for instance Github Actions can run scripts that can build code and place it somewhere like a webserver to be delivered to users
+
+2. Practical Question:
+Consider that you are part of a software development team and you are following the Agile methodology. One of the practices in Agile is pair programming. Can you explain how you would approach pair programming and what tools you would use to facilitate it remotely?
+I've never done an official pair programming session. I've worked together with another dev, usually you have one person driving and writing code while the other person is reviewing the code to ensure it matches spec

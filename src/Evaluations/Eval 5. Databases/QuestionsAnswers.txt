@@ -1,0 +1,11 @@
+1. Theoretical Questions:
+    1.1 Can you explain the difference between SQL and NoSQL databases? Provide examples of each.
+        SQL databases are relational databases that are queriable and editable with the SQL language. NoSQL databases are object model databases
+    1.2 What is a relational database?
+        A relational database is one that is constructed of tables where cells can relate to each other
+    1.3 Can you explain what ACID properties are in the context of a database transaction?
+        I can't tell you what each letter stands for but I do understand the concept of using transactions to ensure data quality. Each step in the transaction has to be completed before the next one occurs and each must be successful for the transaction to be successful
+
+2. Practical Question:
+Write a SQL query to fetch all records from a table named 'users' where the 'age' is greater than 30 and order the results by the 'username' column in ascending order.
+SELECT * FROM users WHERE age > 30 ORDER BY username ASC;

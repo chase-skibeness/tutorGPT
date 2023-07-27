@@ -1,0 +1,20 @@
+Great! Let's proceed with Distributed Systems. 
+
+1. Theoretical Questions:
+    1.1 Can you explain what a distributed system is and why it might be useful?
+      the thing that comes to mind for me is the conecpt of microservices where you have many different domain parts scattered accross smaller applications that communicate with each other over the internet
+    1.2 What are some challenges of working with distributed systems?
+      maintaining, deploying, really anything you need to do to a single system is multiplied by the number of distributed system parts you have
+    1.3 Can you briefly explain what CAP theorem is in the context of distributed systems?
+      I don't know what that is
+
+2. Practical Question:
+Suppose you are working with a distributed system handling hundreds of services. Write a pseudocode function that takes the status of all services (online or offline) as input and returns a list of all the services that are currently offline.
+
+OFFLINE_SYSTEMS=[]
+Query ALL_SYSTEMS()
+foreach(SYSTEM of ALL_SYSTEMS) {
+  if (!SYSTEM.isOnline)
+    OFFLINE_SYSTEMS.push(SYSTEM.name)
+}
+return OFFLINE_SYSTEMS
